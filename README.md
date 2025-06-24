@@ -66,5 +66,49 @@ systemctl enable httpd
 
 ## 4.Criacao do Auto Scalling Group:
 
--agora intregaremos o auto scalling group permitindo assim que as politicas sejam aplicadas:
+- agora intregaremos o auto scalling group permitindo assim que as politicas sejam aplicadas:
+
+![Texto alternativo](/Prints-Project-2/as-00.png)
+
+![Texto alternativo](/Prints-Project-2/as-01.png)
+
+![Texto alternativo](/Prints-Project-2/as-02.png)
+
+![Texto alternativo](/Prints-Project-2/as-03.png)
+
+![Texto alternativo](/Prints-Project-2/as-04.png)
+
+![Texto alternativo](/Prints-Project-2/as-05.png)
+
+![Texto alternativo](/Prints-Project-2/as-06.png)
+
+![Texto alternativo](/Prints-Project-2/as-07.png)
+
+- Configuraremos com as seguintes politicas:
+
+![Texto alternativo](/Prints-Project-2/as-policies.png)
+
+## 5.Configurando o Cloudwatch:
+
+- Agora no cloudwatch configuraremos os alarems para efetivar as politicas que foram feitas e assim se necessario diminuir ou aumentar a carga:
+
+![Texto alternativo](/Prints-Project-2/cw-00.png)
+
+![Texto alternativo](/Prints-Project-2/cw-01.png)
+
+![Texto alternativo](/Prints-Project-2/cw-02.png)
+
+![Texto alternativo](/Prints-Project-2/cw-03.png)
+
+## 6 Resultado do projeto finalizado:
+
+- Com todos os nossos serviços configurados o resultado deve ser esse:
+
+![Texto alternativo](/Prints-Project-2/as-activity-00.png)
+
+![Texto alternativo](/Prints-Project-2/as-activity-01.png)
+
+- com as instancias sendo ciradas e terminadas de acordo com a demanda
+
+![Texto alternativo](/Prints-Project-2/ec2-instances-max-capacity.png)
 
